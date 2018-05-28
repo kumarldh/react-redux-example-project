@@ -1,0 +1,10 @@
+.slider {
+    overflow: hidden;
+    height: inherit;
+    position: relative;
+}
+
+.slider img {
+    max-height: 100%;
+    max-width: 100%;
+}

@@ -1,0 +1,82 @@
+@media screen and (max-height: 450px) {
+    .drawermenu {
+        padding-top: 15px;
+    }
+
+    .drawermenu a {
+        font-size: 18px;
+    }
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-logo {
+    float: none;
+}
+
+#header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #000;
+    margin-bottom: 0;
+}
+
+.drawermenu {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the drawermenu */
+}
+
+/* The navigation menu links */
+.drawermenu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.drawermenu a:hover, .offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.drawermenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.navbar-left {
+    float: left !important
+}
+
+.markfav, .toplogin {
+    padding: 0 10px 0;
+}
+.navbar-right .markfav{
+    ont-size: 18px;
+    font-weight: bold;
+    color: #f00;
+    padding: 2px;
+}
+.markfav sup{
+    display: inline-block;
+    padding: 3px;
+    font-size: 14px;
+}
